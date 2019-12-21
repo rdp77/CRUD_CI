@@ -1,0 +1,93 @@
+h1 {
+    text-align: center;
+    margin-top: 3%;
+}
+
+h2 {
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 3% 0 0 10%;
+}
+
+.body {
+    background-color: #D8E8FB;
+}
+
+.card {
+    margin: 1% 25% 0 25%;
+    border-radius: 20px;
+}
+
+.card-header:first-child {
+    border-radius: 20px 20px 0 0;
+}
+
+.card-header{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.card-footer:last-child{
+    border-radius: 0 0 20px 20px;
+}
+
+.logo {
+    margin: 0 25% 0 25%;
+    size: 20px;
+}
+
+.yuhu {
+    text-align: center;
+    padding-top: 5%;
+    margin-top: 2%;
+    padding-bottom: 1%;
+}
+
+.vertical-scroll {
+    max-height: 350px;
+    width: 100%;
+    overflow: auto;
+    display: inline-block;
+}
+
+.custombtn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    margin-top: 2%;
+}
+
+.col {
+    margin-top: 2%;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #353a40;
+    transition: all 400ms ease-in-out
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, .6)
+}
+
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+    .card{
+        margin:25% 25% 25% 25%;
+    }
+    .btn-success{
+        margin-bottom:5px;
+    }
+}
